@@ -1,0 +1,249 @@
+body {
+    background-color: #19191a;
+    margin: 0;
+    padding: 0;
+    font-family: 'Slabo 27px', serif;
+}
+
+h1 {
+    color: blanchedalmond;
+    font-family: 'Merienda', cursive;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#biografia {
+    background-color: #4d1b16;
+    text-align: center;
+    font-size: 30px;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    box-sizing: border-box;
+    
+}
+#biografia p, h3 {
+    color: whitesmoke;
+    text-align: center;
+
+}
+
+#biografia img {
+    height: auto;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 50%;
+    margin: 20px 0;
+    
+}
+
+h2 {
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.background {
+    background-color: black;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 900px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.background img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin: 0 auto 20px;
+    
+}
+
+#Once {
+    text-align: center;
+    font-size: 30px;
+    
+
+}
+
+.pcuento1 p{
+    padding: 5%;
+    text-align: justify;
+   
+
+}
+
+#cuento1 {
+    background-color: black;
+    color: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 900px;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+
+
+#cuento1 img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin: 0 auto 20px;
+} 
+
+#cuento1 p {
+    padding-top: 2%;
+    padding-left: 13%;
+    padding-right: 13%;
+    text-align: justify;
+    
+}
+
+.background .info {
+    color: aliceblue;
+}
+
+.background .info h3 {
+    font-size: 30px;
+    text-align: justify;
+}
+
+.background .info p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.info {
+    text-align: justify;
+    margin: 40px 0;
+}
+
+li {
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.Copyright {
+    background-color: rgb(117, 34, 4);
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    padding: 10px;
+}
+
+#Cuentos {
+    color: blanchedalmond;
+}
+
+#padre {
+    margin: 5%;
+}
+
+@media (min-width: 600px) {
+    #biografia {
+        max-width: 600px;
+    }
+    .background img {
+        max-width: 600px;
+    
+    }
+
+    #cuento1 {
+        max-width: 600px;
+        
+    }
+
+    #cuento1 img { 
+        max-width: 600px;
+    }
+
+    .Copyright .ul .li .p {
+        max-width: 600px;
+    }
+    .Copyright li {
+        max-width: 400px;
+    }
+        
+
+}
+
+@media (min-width: 768px) {
+    #biografia img {
+        height: auto;
+        width: 60%;
+        max-width: 300px;
+    }
+    .background {
+        max-width: 700px;
+    }
+    #cuento1 img{
+        height: auto;
+        width: 60%;
+        max-width: 60%;
+    }
+
+    #cuento1 {
+        max-width: 700px;
+    }
+}
+
+@media (min-width: 992px) {
+    #biografia {
+        max-width: 800px;
+    }
+    #biografia img {
+        height: auto;
+        width: 50%;
+        max-width: 400px;
+    }
+    .background {
+        max-width: 900px;
+    }
+    .background .info p {
+        max-width: 80%;
+        margin: 20px auto;
+    }
+
+    #cuento1 img {
+        height: auto;
+        width: 50%;
+        max-width: 400px;
+    }
+
+    #cuento1 {
+        max-width: 900px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .background img {
+        width: 300px;
+        height: auto;
+    }
+    .background .info {
+        text-align: left;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .background .info h3, .background .info p {
+        text-align: left;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .info p {
+        max-width: 60%;
+    }
+
+    #cuento1 img {
+        height: auto;
+        width: 300px;
+    }
+    #cuento1 .h2 .p {
+        max-width: 80%;
+    }
+}
+
