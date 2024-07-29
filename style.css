@@ -135,6 +135,12 @@ li {
     padding: 10px;
 }
 
+.link1 {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
 #Cuentos {
     color: blanchedalmond;
 }
